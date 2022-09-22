@@ -30,9 +30,9 @@ app.use(express.json())
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
 
-
+const port = process.env.PORT || 4000;
 
 //Escuchar peticiones
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
     console.log('Servidor corriendo!!');
 });
