@@ -1,9 +1,6 @@
 {
   "name": "calendar-backend",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.11.1"
-  },
   "description": "",
   "main": "index.js",
   "scripts": {
