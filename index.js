@@ -24,7 +24,7 @@ app.listen(80, function () {
 app.use(express.static('public'));
 
 //Lectura y el parseo del body
-app.use(express.json());
+app.use(express.json())
 
 //Rutas
 app.use('/api/auth', require('./routes/auth'));
