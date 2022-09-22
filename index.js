@@ -34,5 +34,5 @@ const port = process.env.PORT || 4000;
 
 //Escuchar peticiones
 app.listen(port, () => {
-    console.log('Servidor corriendo!!');
+    console.log('Servidor corriendo!!')
 });
